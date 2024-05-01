@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+.task-list {
+   color: black;
+   font-family: "Space Grotesk", sans-serif;
+   padding-right: 16%;
+   padding-top: 30px;
+}
+
+.task-name {
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px 0px #a6a9db;
+    border: none;   
+    margin: 10px;
+    border-radius: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.button{
+    color: #ffffff;
+    background-color: slateblue;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    outline: none;
+}

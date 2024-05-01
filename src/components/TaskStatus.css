@@ -1,0 +1,35 @@
+.task {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+ border: none;
+
+  list-style-type: none;
+}
+
+.task button {
+  padding: 4px 8px;
+  background-color: slateblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+
+
+.task-submit {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border:none;
+}
+.status-head{
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  padding-right: 11%;
+  padding-top: 10px;
+}

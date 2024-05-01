@@ -1,0 +1,43 @@
+.task-assign-head{
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  padding-right: 11%;
+  padding-top: 30px;
+}
+.task-assign{
+  margin-top:10px;
+}
+.select{
+  margin-right: 5px;
+  outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px 0px #a6a9db;
+    border: none;   
+   max-width: auto;
+    padding: 5px;
+    margin-left: 20px;
+    
+}
+.assign-input{
+  margin-right: 5px;
+  outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px 0px #a6a9db;
+    border: none;   
+   max-width: auto;
+    padding: 5px;
+}
+.assign-button{
+  color: #ffffff;
+    background-color: slateblue;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    cursor: pointer;
+    outline: none;
+}
