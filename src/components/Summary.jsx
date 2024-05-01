@@ -1,5 +1,5 @@
 // TaskSummaryPage.js
-import './TaskSummary.css'
+import './Summary.css'
 import React from 'react';
 
 const TaskSummaryPage = ({ tasks }) => {

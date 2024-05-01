@@ -1,5 +1,5 @@
 import React from 'react';
-import './TaskStatus.css'; // Import your CSS file here
+import './Status.css'; // Import your CSS file here
 
 const TaskStatusUpdates = ({ tasks, updateTaskStatus, deleteTask }) => {
   const handleStatusUpdate = (taskId, status) => {

@@ -10,7 +10,7 @@
 
 .task button {
   padding: 4px 8px;
-  background-color: slateblue;
+  background-color: rgb(165, 75, 61);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -28,8 +28,6 @@
   border:none;
 }
 .status-head{
-  color: black;
-  font-family: "Space Grotesk", sans-serif;
-  padding-right: 11%;
+  color:red;
   padding-top: 10px;
 }

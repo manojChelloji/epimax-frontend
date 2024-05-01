@@ -1,7 +1,5 @@
 .task-assign-head{
-  color: black;
-  font-family: "Space Grotesk", sans-serif;
-  padding-right: 11%;
+  color:red;  
   padding-top: 30px;
 }
 .task-assign{
@@ -11,7 +9,7 @@
   margin-right: 5px;
   outline: none;
     border-radius: 8px;
-    box-shadow: 0px 2px 2px 0px #a6a9db;
+    box-shadow: 0px 2px 2px 0px #c3f7e18a;
     border: none;   
    max-width: auto;
     padding: 5px;
@@ -29,7 +27,7 @@
 }
 .assign-button{
   color: #ffffff;
-    background-color: slateblue;
+    background-color: #337272;
     font-weight: 500;
     font-size: 16px;
     border: none;

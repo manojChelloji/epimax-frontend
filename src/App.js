@@ -1,20 +1,18 @@
 import React, { useState } from 'react';
-import TaskList from './components/TaskList';
-import TaskAssign from './components/TaskAssign';
-import TaskStatus from './components/TaskStatus';
-import TaskSummary from './components/TaskSummary';
+import TaskList from './components/TaskListItems';
+import TaskAssign from './components/TaskAssignment';
+import TaskStatus from './components/Status';
+import TaskSummary from './components/Summary';
 import './App.css';
 
 function App() {
-  // i used useState for managing tasks
+
   const [tasks, setTasks] = useState([]);
 
-  // created a Function to add a new task
   const addTask = (newTask) => {
     setTasks([...tasks, newTask]);
   };
 
-  // created Function to assign a task to a user or team
   const taskAssign = (taskId, assign) => {
     const updatedTasks = tasks.map(task => {
       if (task.id === taskId) {
@@ -26,8 +24,6 @@ function App() {
   };
 
 
-
-  // Function to update task status
   const updateTaskStatus = (taskId, status) => {
     const updatedTasks = tasks.map(task => {
       if (task.id === taskId) {
@@ -37,7 +33,7 @@ function App() {
     });
     setTasks(updatedTasks);
   };
-   // Function to delete a task
+
    const handleDeleteTask = (taskId) => {
     const updatedTasks = tasks.filter(task => task.id !== taskId);
     setTasks(updatedTasks);
